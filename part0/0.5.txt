@@ -1,0 +1,13 @@
+sequenceDiagram
+	
+	The user write something in the form field and click in the save button
+
+	browser <form> : content ->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+	activate server
+	server-->>browser: JSON file
+	deactivate server
+	
+
+	
+
+	
