@@ -1,9 +1,33 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 
-createRoot(document.getElementById('root')).render(
+// let contador = 1;
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);
+
+// const recarregar = () => {
+//   // contador += 1
+//   createRoot(document.getElementById("root")).render(
+//     <StrictMode>
+//       <App contador={contador} />
+//     </StrictMode>
+//   );
+// };
+
+// setInterval(() => {
+//   recarregar();
+//   contador += 1;
+// }, 1000);
+
+// recarregar()
+// contador += 1
+// recarregar()
+// contador += 1
+// recarregar()
+// contador += 1
+// recarregar()
